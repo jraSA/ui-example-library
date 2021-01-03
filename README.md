@@ -50,5 +50,5 @@ npm run publish-major
 ## Installing <a name = "installing"></a>
 
 ```
-npm i core-example-library
+npm i ui-example-library
 ```
