@@ -1,16 +1,17 @@
-import React from 'react'
+import React from 'react';
+import { Message } from './MySimpleHelloComponent.styles';
 
 interface Props {
     message: string
-}
+};
 
 const MySimpleHelloComponent = (props: Props) => {
     const { message } = props;
     return (
-        <h1>
+        <Message>
             {message}
-        </h1>
+        </Message>
     )
-}
+};
 
 export default MySimpleHelloComponent;

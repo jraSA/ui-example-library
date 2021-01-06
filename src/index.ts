@@ -1,3 +1,3 @@
-import MySimpleHelloComponent from './MySimpleHelloComponent';
+import MySimpleHelloComponent from './atoms/MySimpleHelloComponent';
 
 export { MySimpleHelloComponent };

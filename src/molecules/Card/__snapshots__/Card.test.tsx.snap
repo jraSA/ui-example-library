@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render test WHEN I render the component THEN it should match the snapshot 1`] = `
+<div
+  className="sc-gsTCUz Edwuc"
+>
+  <div
+    className="sc-bdfBwQ eapelb"
+  >
+    <div
+      className="sc-hKgILt eoVmKB"
+    />
+  </div>
+</div>
+`;
+
+exports[`Render test with child WHEN I render the component THEN it should match the snapshot 1`] = `
+<div
+  className="sc-gsTCUz Edwuc"
+>
+  <div
+    className="sc-bdfBwQ eapelb"
+  >
+    <div
+      className="sc-hKgILt eoVmKB"
+    >
+      <div>
+        Foo-boo
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Render test with title WHEN I render the component THEN it should match the snapshot 1`] = `
+<div
+  className="sc-gsTCUz Edwuc"
+>
+  <div
+    className="sc-bdfBwQ eapelb"
+  >
+    <h1
+      className="sc-dlfnbm kiNVsf"
+    >
+      Foo-title
+    </h1>
+    <div
+      className="sc-hKgILt eoVmKB"
+    >
+      <div>
+        Foo-boo
+      </div>
+    </div>
+  </div>
+</div>
+`;

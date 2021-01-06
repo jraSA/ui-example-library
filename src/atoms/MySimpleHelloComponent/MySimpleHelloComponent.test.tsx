@@ -1,6 +1,6 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import MySimpleHelloComponent from '../MySimpleHelloComponent';
+import MySimpleHelloComponent from '.';
 
 describe('Render test', () => {
   const wrapper = renderer.create(<MySimpleHelloComponent message={'foo-boo'} />);
