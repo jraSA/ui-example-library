@@ -40,7 +40,7 @@ exports[`Render test with title WHEN I render the component THEN it should match
     className="sc-bdfBwQ ciyLDR"
   >
     <h1
-      className="sc-dlfnbm kiNVsf"
+      className="sc-dlfnbm jWLUWq"
     >
       Foo-title
     </h1>

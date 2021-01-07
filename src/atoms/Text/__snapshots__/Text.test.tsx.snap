@@ -2,7 +2,7 @@
 
 exports[`Render test WHEN I render the component THEN it should match the snapshot 1`] = `
 <div
-  className="sc-bdfBwQ RdbVo"
+  className="sc-bdfBwQ jDXXXp"
 >
   foo-boo
 </div>
