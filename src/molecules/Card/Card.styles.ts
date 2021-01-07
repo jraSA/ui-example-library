@@ -5,7 +5,7 @@ import { getThemeValue } from '../../theme/ThemeUtils';
 const { space, padding, sizes, radii, fonts, color } = BaseTheme;
 
 const { lightboxBackground, black, white } = color;
-const { primaryFont } = fonts;
+const { primaryFont, fontSizes } = fonts;
 
 const { card } = sizes;
 
@@ -34,7 +34,7 @@ export const Container = styled.div`
 
 export const Title = styled.h1`
   font-family: ${primaryFont}, arial, sans-serif;
-  font-size: ${space[5]}px;
+  font-size: ${(props) => getThemeValue(props, 'titleSize', fontSizes[8])}px;
   text-align: left;
   color: ${(props) => getThemeValue(props, 'titleColor', black)};
 `;
