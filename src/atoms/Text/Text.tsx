@@ -2,14 +2,14 @@ import React from 'react';
 import { TextContainer } from './Text.styles';
 
 interface Props {
-    value: string
+    children: string
 };
 
 const Text = (props: Props) => {
-    const { value } = props;
+    const { children } = props;
     return (
         <TextContainer>
-            {value}
+            {children}
         </TextContainer>
     )
 };

@@ -7,9 +7,6 @@ export default {
     component: Text,
 } as Meta;
 
-const Template = (args) => <Text {...args} />;
+const Template = () => <Text>My text</Text>;
 
 export const SimpleTextComponent = Template.bind({});
-SimpleTextComponent.args = {
-    value: 'foo-boo',
-};

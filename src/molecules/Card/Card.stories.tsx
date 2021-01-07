@@ -13,7 +13,7 @@ const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
 
 const Template = (args) => (
     <Card {...args}>
-        <Text value={text} />
+        <Text>{text}</Text>
     </Card>
 );
 

@@ -12,8 +12,12 @@
 
 ## About <a name = "about"></a>
 
-A very simple example of a ui library using React and TypeScript. This could be used as a boilerplate for more complex projects.
+A very simple example of a UI library using React and TypeScript. This could be used as a boilerplate for more complex projects.
 
+The components are build using styled-components and following the Theme Specification from <a href="https://system-ui.com/">System UI</a>.
+
+A runing example of the components could be found in this storybook:
+https://jrasa.github.io/ui-example-library/
 
 ## Running tests  <a name = "running_test"></a>
 

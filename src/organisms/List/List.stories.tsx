@@ -25,8 +25,8 @@ const myBooData: Array<MyMockData> = [
     { text: 'boo-3' }
 ];
 
-const renderItem = (item: any) => {
-    return <Text value={item.text} />
+const renderItem = (item: MyMockData) => {
+    return <Text>{item.text}</Text>;
 }
 
 const getData = () => {
