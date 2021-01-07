@@ -6,6 +6,7 @@ const { space, padding, sizes, radii, fonts, color } = BaseTheme;
 
 const { lightboxBackground, black, white } = color;
 const { primaryFont } = fonts;
+
 const { card } = sizes;
 
 export const CardFrame = styled.div`
@@ -18,7 +19,7 @@ export const CardFrame = styled.div`
   padding: ${padding[4]}px;
   border-radius: ${radii[3]}px;
   background-color: ${(props) =>
-    getThemeValue(props, 'primaryBackground', 'white')};
+    getThemeValue(props, 'primaryBackground', white)};
   box-shadow: ${space[1]}px ${space[1]}px ${space[2]}px ${lightboxBackground};
   &:hover {
     box-shadow: ${space[2]}px ${space[2]}px ${space[3]}px ${lightboxBackground};

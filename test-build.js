@@ -1,4 +1,6 @@
 const assert = require('assert');
-const { MySimpleHelloComponent } = require('./lib');
+const { Text, Card, List } = require('./lib');
 
-assert.deepStrictEqual(typeof MySimpleHelloComponent, 'function');
+assert.deepStrictEqual(typeof Text, 'function');
+assert.deepStrictEqual(typeof Card, 'function');
+assert.deepStrictEqual(typeof List, 'function');

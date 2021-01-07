@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List render test WHEN I dont provide data or getData THEN I should render loading 1`] = `
+<ul>
+  <div>
+    loading!!
+  </div>
+</ul>
+`;
+
+exports[`List render test WHEN I provide getData THEN I should render the list with the getData values 1`] = `
+<ul>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            boo-1
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            boo-2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            boo-3
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ul>
+`;
+
+exports[`List render test WHEN I provide initialData THEN I should render the list 1`] = `
+<ul>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            foo-1
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            foo-2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            foo-3
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ul>
+`;
+
+exports[`List render test WHEN I provide initialData and getData THEN I should render the list with the initialData 1`] = `
+<ul>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            foo-1
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            foo-2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-eCssSg hkzTLf"
+  >
+    <div
+      className="sc-gsTCUz Edwuc"
+    >
+      <div
+        className="sc-bdfBwQ ciyLDR"
+      >
+        <div
+          className="sc-hKgILt eoVmKB"
+        >
+          <div>
+            foo-3
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ul>
+`;

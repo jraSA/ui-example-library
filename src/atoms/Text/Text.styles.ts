@@ -7,10 +7,10 @@ const { color, fonts } = BaseTheme;
 const { black } = color;
 const { primaryFont } = fonts;
 
-const Message = styled.div`
+const TextContainer = styled.div`
   font-family: ${primaryFont}, arial, sans-serif;
   text-align: left;
   color: ${(props) => getThemeValue(props, 'textColor', black)};
 `;
 
-export { Message };
+export { TextContainer };

@@ -1,14 +1,43 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Card from '../../molecules/Card';
+import { Row } from './List.styles';
 
-interface Props {
-    data: [any]
+interface Props<T> {
+    initialData?: T[],
+    getData?: () => T[],
+    renderItem: (item: T) => React.ReactNode
 };
 
-const List = (props: Props) => {
-    return (
-        <div>
+const List = <T extends object>(props: Props<T>) => {
+    const { initialData, renderItem, getData } = props;
+    const [data, setData] = useState(initialData)
 
-        </div>
+    useEffect(() => {
+        if (getData && !data) {
+            const getNewData = async () => {
+                const newData = await getData();
+                setData(newData);
+            }
+            getNewData();
+        }
+    }, [data])
+
+    const renderItems = () => {
+        return (data ?
+            data.map(item =>
+                <Row key={JSON.stringify(item)}>
+                    <Card>
+                        {renderItem(item)}
+                    </Card>
+                </Row>
+            ) :
+            <div>loading!!</div>);
+    };
+
+    return (
+        <ul>
+            {renderItems()}
+        </ul>
     );
 };
 

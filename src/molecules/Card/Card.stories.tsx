@@ -1,7 +1,7 @@
 import React from 'react';
 import { Meta } from '@storybook/react/types-6-0';
 import Card from '.';
-import MySimpleHelloComponent from '../../atoms/MySimpleHelloComponent';
+import Text from '../../atoms/Text';
 
 export default {
     title: 'Molecules/Card',
@@ -13,7 +13,7 @@ const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,"
 
 const Template = (args) => (
     <Card {...args}>
-        <MySimpleHelloComponent message={text} />
+        <Text value={text} />
     </Card>
 );
 

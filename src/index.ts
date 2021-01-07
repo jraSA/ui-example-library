@@ -1,3 +1,5 @@
-import MySimpleHelloComponent from './atoms/MySimpleHelloComponent';
+import Text from './atoms/Text';
+import Card from './molecules/Card';
+import List from './organisms/List';
 
-export { MySimpleHelloComponent };
+export { Text, Card, List };

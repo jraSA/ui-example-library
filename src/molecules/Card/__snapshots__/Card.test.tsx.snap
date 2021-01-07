@@ -5,7 +5,7 @@ exports[`Render test WHEN I render the component THEN it should match the snapsh
   className="sc-gsTCUz Edwuc"
 >
   <div
-    className="sc-bdfBwQ eapelb"
+    className="sc-bdfBwQ ciyLDR"
   >
     <div
       className="sc-hKgILt eoVmKB"
@@ -19,7 +19,7 @@ exports[`Render test with child WHEN I render the component THEN it should match
   className="sc-gsTCUz Edwuc"
 >
   <div
-    className="sc-bdfBwQ eapelb"
+    className="sc-bdfBwQ ciyLDR"
   >
     <div
       className="sc-hKgILt eoVmKB"
@@ -37,7 +37,7 @@ exports[`Render test with title WHEN I render the component THEN it should match
   className="sc-gsTCUz Edwuc"
 >
   <div
-    className="sc-bdfBwQ eapelb"
+    className="sc-bdfBwQ ciyLDR"
   >
     <h1
       className="sc-dlfnbm kiNVsf"

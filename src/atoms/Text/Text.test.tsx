@@ -1,9 +1,9 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import MySimpleHelloComponent from '.';
+import Text from '.';
 
 describe('Render test', () => {
-  const wrapper = renderer.create(<MySimpleHelloComponent message={'foo-boo'} />);
+  const wrapper = renderer.create(<Text value={'foo-boo'} />);
 
   test('WHEN I render the component THEN it should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
