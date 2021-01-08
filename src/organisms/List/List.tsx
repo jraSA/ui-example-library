@@ -26,8 +26,8 @@ const List = <T extends object>(props: Props<T>) => {
 
     const renderItems = () => {
         return (data ?
-            data.map(item =>
-                <Row key={JSON.stringify(item)}>
+            data.map((item, index) =>
+                <Row key={index}>
                     <Card>
                         {renderItem(item)}
                     </Card>
