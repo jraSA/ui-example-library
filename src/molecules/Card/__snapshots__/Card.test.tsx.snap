@@ -2,13 +2,13 @@
 
 exports[`Render test WHEN I render the component THEN it should match the snapshot 1`] = `
 <div
-  className="sc-gsTCUz Edwuc"
+  className="sc-bdfBwQ ixcnvM"
 >
   <div
-    className="sc-bdfBwQ ciyLDR"
+    className="sc-gsTCUz fFutaN"
   >
     <div
-      className="sc-hKgILt eoVmKB"
+      className="sc-bdfBwQ ixcnvM"
     />
   </div>
 </div>
@@ -16,13 +16,13 @@ exports[`Render test WHEN I render the component THEN it should match the snapsh
 
 exports[`Render test with child WHEN I render the component THEN it should match the snapshot 1`] = `
 <div
-  className="sc-gsTCUz Edwuc"
+  className="sc-bdfBwQ ixcnvM"
 >
   <div
-    className="sc-bdfBwQ ciyLDR"
+    className="sc-gsTCUz fFutaN"
   >
     <div
-      className="sc-hKgILt eoVmKB"
+      className="sc-bdfBwQ ixcnvM"
     >
       <div>
         Foo-boo
@@ -34,10 +34,10 @@ exports[`Render test with child WHEN I render the component THEN it should match
 
 exports[`Render test with title WHEN I render the component THEN it should match the snapshot 1`] = `
 <div
-  className="sc-gsTCUz Edwuc"
+  className="sc-bdfBwQ ixcnvM"
 >
   <div
-    className="sc-bdfBwQ ciyLDR"
+    className="sc-gsTCUz fFutaN"
   >
     <h1
       className="sc-dlfnbm jWLUWq"
@@ -45,7 +45,7 @@ exports[`Render test with title WHEN I render the component THEN it should match
       Foo-title
     </h1>
     <div
-      className="sc-hKgILt eoVmKB"
+      className="sc-bdfBwQ ixcnvM"
     >
       <div>
         Foo-boo

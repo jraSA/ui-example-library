@@ -1,5 +1,6 @@
 import React from 'react';
-import { CardFrame, Container, Content, Title } from './Card.styles';
+import CenteredContainer from '../../atoms/CenteredContainer';
+import { CardFrame, Title } from './Card.styles';
 
 interface Props {
     title?: string,
@@ -9,14 +10,14 @@ interface Props {
 const Card = (props: Props) => {
     const { children, title } = props;
     return (
-        <Container>
+        <CenteredContainer>
             <CardFrame>
                 {renderTitle(title)}
-                <Content>
+                <CenteredContainer>
                     {children}
-                </Content>
+                </CenteredContainer>
             </CardFrame>
-        </Container>
+        </CenteredContainer>
     )
 };
 

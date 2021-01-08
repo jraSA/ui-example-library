@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render test WHEN I render the component THEN it should match the snapshot 1`] = `
+<button
+  className="sc-bdfBwQ llOwxJ"
+>
+  foo-boo
+</button>
+`;

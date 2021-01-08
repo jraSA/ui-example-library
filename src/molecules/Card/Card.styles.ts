@@ -26,21 +26,9 @@ export const CardFrame = styled.div`
   }
 `;
 
-export const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
 export const Title = styled.h1`
   font-family: ${primaryFont}, arial, sans-serif;
   font-size: ${(props) => getThemeValue(props, 'titleSize', fontSizes[8])}px;
   text-align: left;
   color: ${(props) => getThemeValue(props, 'titleColor', black)};
-`;
-
-export const Content = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Card from '../../molecules/Card';
+import Text from '../../atoms/Text';
 import { Row } from './List.styles';
+import CenteredContainer from '../../atoms/CenteredContainer';
 
 interface Props<T> {
     initialData?: T[],
@@ -31,13 +33,15 @@ const List = <T extends object>(props: Props<T>) => {
                     </Card>
                 </Row>
             ) :
-            <div>loading!!</div>);
+            <CenteredContainer>
+                <Text>loading!!</Text>
+            </CenteredContainer>);
     };
 
     return (
-        <ul>
+        <div>
             {renderItems()}
-        </ul>
+        </div>
     );
 };
 
