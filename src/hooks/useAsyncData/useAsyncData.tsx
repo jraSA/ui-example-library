@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function useAsyncData<T extends object>(getData?: () => T[], initialData?: T[]) {
+const useAsyncData = <T extends object>(getData?: () => T[], initialData?: T[]) => {
     const [data, setData] = useState(initialData);
 
     useEffect(() => {
@@ -15,3 +15,5 @@ export default function useAsyncData<T extends object>(getData?: () => T[], init
 
     return data;
 }
+
+export default useAsyncData;
