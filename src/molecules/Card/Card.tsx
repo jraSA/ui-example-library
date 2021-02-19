@@ -7,6 +7,10 @@ interface Props {
     children?: React.ReactNode
 }
 
+const renderTitle = (title: string | undefined): React.ReactNode => {
+    return title && <Title>{title}</Title>;
+};
+
 const Card = (props: Props) => {
     const { children, title } = props;
     return (
@@ -23,6 +27,4 @@ const Card = (props: Props) => {
 
 export default Card;
 
-const renderTitle = (title: string | undefined): React.ReactNode => {
-    return title && <Title>{title}</Title>;
-};
+

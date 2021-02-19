@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Card from '../../molecules/Card';
 import Text from '../../atoms/Text';
 import { Row } from './List.styles';
 import CenteredContainer from '../../atoms/CenteredContainer';
+import useAsyncData from '../../hooks/useAsyncData';
 
 interface Props<T> {
     initialData?: T[],
@@ -12,17 +13,8 @@ interface Props<T> {
 
 const List = <T extends object>(props: Props<T>) => {
     const { initialData, renderItem, getData } = props;
-    const [data, setData] = useState(initialData)
-
-    useEffect(() => {
-        if (getData && !data) {
-            const getNewData = async () => {
-                const newData = await getData();
-                setData(newData);
-            }
-            getNewData();
-        }
-    }, [data])
+    
+    const data = useAsyncData(getData, initialData);
 
     const renderItems = () => {
         return (data ?
